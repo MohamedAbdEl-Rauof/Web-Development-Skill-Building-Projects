@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customizable Theme Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Customizable Theme Generator</h1>
+        <div class="color-pickers">
+            <label>
+                Background Color:
+                <input type="color" id="backgroundColorPicker">
+            </label>
+            <label>
+                Text Color:
+                <input type="color" id="textColorPicker">
+            </label>
+            <label>
+                Button Color:
+                <input type="color" id="buttonColorPicker">
+            </label>
+        </div>
+        <button id="applyTheme">Apply Theme</button>
+        <button id="saveTheme">Save Theme</button>
+        <div class="saved-themes">
+            <h2>Saved Themes</h2>
+            <div id="savedThemesContainer"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.color-pickers {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.color-pickers label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="color"] {
+    width: 100px;
+    height: 50px;
+    margin-top: 5px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.saved-themes {
+    margin-top: 30px;
+}
+
+#savedThemesContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.saved-theme {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
